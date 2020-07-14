@@ -40,4 +40,4 @@ def create_report(name, full_url, domain_name, nmap, robots_txt, whois):
     write_file(project_dir + 'whois.txt', whois)
 
 #Gather info creates the name for it on the directory, URL for your intended website, Hostname for your intended website.
-gather_info('www.reddit.com', 'http://reddit.com/', 'www.reddit.com')
+gather_info('reddit', 'http://www.reddit.com/', 'www.reddit.com')
