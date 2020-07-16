@@ -9,6 +9,7 @@ _WebScraper:_
 - Finds whois
 - Performs nmap
 - Locates Robot.txt
+- Retrieves website's html
 - Stores all data into a named directory, the name is changeable, in individual files for your viewing pleasure.
 
 _What you need:_

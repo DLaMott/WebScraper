@@ -7,6 +7,6 @@ def create_dir(directory):
 
 
 def write_file(path, data):
-    f = open(path, 'w')
+    f = open(path, 'w', encoding="utf-8")
     f.write(data)
     f.close()
